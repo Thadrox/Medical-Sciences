@@ -1,0 +1,99 @@
+# =====================================
+# 🔹 General System & Editor Files
+# =====================================
+.DS_Store
+Thumbs.db
+__MACOSX/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# 🔹 Logs, Caches, Temp Files
+# =====================================
+*.log
+*.tmp
+*.temp
+.cache/
+.tmp/
+*.bak
+
+# =====================================
+# 🔹 Environment / Secrets
+# =====================================
+.env
+.env.*
+.env.local
+*.key
+*.pem
+secrets.json
+
+# =====================================
+# 🔹 Web Dev: Node, NPM, Build Tools
+# =====================================
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build folders
+dist/
+build/
+out/
+public/
+
+# =====================================
+# 🔹 GitHub Pages
+# =====================================
+*.zip
+docs/.DS_Store
+
+# =====================================
+# 🔹 Result / Export Files (CBT)
+# =====================================
+results.json
+results.csv
+answers.txt
+scores/
+
+# =====================================
+# 🔹 Termux & Shell Files
+# =====================================
+termux.properties
+*.sh~
+*.sh.swp
+*.termux-backup
+*.deb
+*.apk
+
+# =====================================
+# 🔹 Android (if building for mobile)
+# =====================================
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.iml
+.gradle/
+build/
+captures/
+local.properties
+*.keystore
+
+# =====================================
+# 🔹 CBT System (Customize as needed)
+# =====================================
+/student_results/
+__local_logs/
+quiz_config.json
+*.answers.json
+*.old.html
+
+# =====================================
+# 🔹 Others (You can add custom folders)
+# =====================================
+test/
+backup/
+old_versions/
